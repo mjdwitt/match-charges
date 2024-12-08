@@ -1,0 +1,13 @@
+[package]
+name = "match-charges"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+rstest = "0.23.0"
+
+[dependencies]
+color-eyre = { version = "0.6.3", default-features = false, features = ["track-caller"] }
+itertools = "0.13.0"
+num = "0.4.3"
+regex = "1.11.1"
